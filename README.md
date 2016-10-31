@@ -6,3 +6,5 @@ LDR sensor / Sensor LDR
 
 Example of use / Ejemplo de uso:<br>
 https://vimeo.com/162917191
+
+CC BY-NC-SA
