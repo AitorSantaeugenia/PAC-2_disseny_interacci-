@@ -50,7 +50,7 @@ void loop()
   //Delay de 1 segon
   delay(1000); 
 
-  //Major o igual a 823 i major o igual a 1023 tots encessos
+  //Més gran o igual a 823 i Més gran o igual a 1023 tots encessos
   //Valor d'entrada de la llum al LDR es de 0 a 1023, fent l'escriptura al MONITOR SERIE
   //decidim els valors que tindran (no es el mateix fer-ho al matí, que de nit).
   //Valors actuals = migdia
@@ -85,7 +85,7 @@ void loop()
     //Delay de 1 segon
     delay(1000); 
   }
-  //Major o igual a 623 i major a 723 tots encessos menys 2
+  //Més gran o igual a 623 i Més gran a 723 tots encessos menys 2
   else if((LDRsensor >= 623) & (LDRsensor < 723))
   {
     digitalWrite(led1, LOW);
@@ -101,7 +101,7 @@ void loop()
     //Delay de 1 segon
     delay(1000); 
   }
-  //Major o igual a 523 i major a 623 dos encessos, tres apagats
+  //Més gran o igual a 523 i Més gran a 623 dos encessos, tres apagats
   else if((LDRsensor >= 523) & (LDRsensor < 623))
   {
     digitalWrite(led1, LOW);
@@ -117,7 +117,7 @@ void loop()
     //Delay de 1 segon
     delay(1000); 
   }
-  //Major o igual a 500 i major a 523 tots apagats menys 1
+  //Més gran o igual a 500 i Més gran a 523 tots apagats menys 1
   else  if((LDRsensor >= 500) & (LDRsensor < 523))
   {
     digitalWrite(led1, LOW);
